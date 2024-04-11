@@ -13,7 +13,6 @@ header{
     justify-content: center;
 }
 
-
 #conteudo{
     background-color: #fff;
     min-height: 90vh;
@@ -82,6 +81,15 @@ header{
     padding: 5px 10px; 
 }
 
+.w-100 {
+    display: block;
+    width: 100%;
+}
+.w-200px {width: 200px;}
+
+/* FIM Estilos para Containers e BOX */
+
+
 /* Estilo para Imagens */
 
 .img-fluid{
@@ -92,6 +100,9 @@ header{
 .img-50{
     max-width: 50%;
 }
+
+
+/* FIM Estilo para Imagens */
 
 
 /* Estilos para Alinhamento */
@@ -105,6 +116,7 @@ header{
 .text-center {text-align: center;}
 .text-justify {text-align: justify;}
 
+/* FIM Estilos para Alinhamento */
 
 
 /* Estilos para Texto */
@@ -121,6 +133,10 @@ header{
     padding: 5px 15px;
 }
 
+
+/* FIM Estilos para Texto */
+
+
 /* Estilos para Background */
 
 .bg-blue-dark{
@@ -128,11 +144,19 @@ header{
     color: #fff;
 }
 
+.bg-white{
+    background-color: #fff;
+    color: #213259;
+}
+
 
 /* Estilos para Margem e Padding */
 .mt-1 {margin-top: 10px;}
 .mt-2 {margin-top: 20px;}
 .mt-3 {margin-top: 30px;}
+
+/* FIM Estilos para Background */
+
 
 /* Estilos para Botão */
 
@@ -158,6 +182,8 @@ header{
     background-color: #213259;
     color: #fff;    
 }
+
+/* FIM Estilos para Botão */
 
 
 /* Estilos para Formulário */
@@ -185,8 +211,11 @@ header{
     margin-bottom: 15px;
 }
 
+/* FIM Estilos para Formulário */
+
 
 /* Configurações Especiais para quando a largura for menor ou igual a 480px */
+
 .display-p { display: block; }
 
 @media screen and (max-width: 480px) {
@@ -205,5 +234,6 @@ header{
 
     .img-p-none {display: none;}
 
-
 }
+
+/* FIM Configurações Especiais para quando a largura for menor ou igual a 480px */
