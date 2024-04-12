@@ -85,6 +85,8 @@ header{
     display: block;
     width: 100%;
 }
+
+
 .w-200px {width: 200px;}
 
 /* FIM Estilos para Containers e BOX */
@@ -99,6 +101,11 @@ header{
 
 .img-50{
     max-width: 50%;
+}
+
+.img-75px{
+    max-height: 75px;
+    margin: 20px;
 }
 
 
@@ -180,6 +187,13 @@ header{
     width: 100%;
     padding: 10px;
     background-color: #213259;
+    color: #fff;    
+}
+
+.btn-blue{
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
     color: #fff;    
 }
 
