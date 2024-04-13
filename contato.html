@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Contato</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -19,19 +19,19 @@
         <form method="post" class="form text-blue-dark" id="form">
             <div>
                 <label for="nome">Nome</label>
-                <input type="text" name="nome" id="nome" class="form-control" placeholder="Digite seu nome completo">
+                <input type="text" name="nome" id="nome" class="form-control" placeholder="Digite seu nome completo" required>
             </div>
             <div>
                 <label for="email">E-Mail</label>
-                <input type="email" name="email" id="email" class="form-control" placeholder="Digite seu email (Ex. email@email.com)">
+                <input type="email" name="email" id="email" class="form-control" placeholder="Digite seu email (Ex. email@email.com)" required>
             </div>
             <div>
                 <label for="assunto">Assunto</label>
-                <input type="text" name="assunto" id="assunto" class="form-control" placeholder="Digite o Assunto do Contato">
+                <input type="text" name="assunto" id="assunto" class="form-control" placeholder="Digite o Assunto do Contato" required>
             </div>
             <div>
                 <label for="mensagem">Mensagem</label>
-                <textarea name="mensagem" id="mensagem" rows="10" class="form-control"></textarea>
+                <textarea name="mensagem" id="mensagem" rows="10" class="form-control" required minlength="5"></textarea>
             </div>
             <div>
                 <button class="btn btn-blue-dark">Enviar</button>
