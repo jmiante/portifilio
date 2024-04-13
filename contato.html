@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Contato</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header id="menu"></header>
     <!-- Menu será construido pelo arquivo js/header.js -->
@@ -14,22 +16,22 @@
 
     <section id="conteudo">
 
-        <form action="" method="get" class="form text-blue-dark">
+        <form method="post" class="form text-blue-dark" id="form">
             <div>
-                <label for="nome" >Nome</label>
+                <label for="nome">Nome</label>
                 <input type="text" name="nome" id="nome" class="form-control" placeholder="Digite seu nome completo">
             </div>
             <div>
-                <label for="email" >E-Mail</label>
+                <label for="email">E-Mail</label>
                 <input type="email" name="email" id="email" class="form-control" placeholder="Digite seu email (Ex. email@email.com)">
             </div>
             <div>
-                <label for="assunto" >Assunto</label>
+                <label for="assunto">Assunto</label>
                 <input type="text" name="assunto" id="assunto" class="form-control" placeholder="Digite o Assunto do Contato">
             </div>
             <div>
-                <label for="mensagem" >Mensagem</label>
-                <textarea name="mensagem" id="mensagem" rows="10"  class="form-control"></textarea>
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" rows="10" class="form-control"></textarea>
             </div>
             <div>
                 <button class="btn btn-blue-dark">Enviar</button>
@@ -44,5 +46,7 @@
 
     <!-- Scripts JS -->
     <script src="js/header.js"></script>
+    <script src="js/form.js"></script>
 </body>
+
 </html>
