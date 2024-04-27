@@ -5,7 +5,7 @@ menu.innerHTML = `
     JH Miante
 </div>
 <div class="box-75 box-75-p align-end ">
-    <a href="/" class="btn">Inicio</a>
+    <a href="index.html" class="btn">Inicio</a>
     <a href="sobre.html" class="btn">Sobre</a>
     <a href="formacoes.html" class="btn"> Formações/Habilidades </a>
     <a href="portfolio.html" class="btn">Portfolio</a>
